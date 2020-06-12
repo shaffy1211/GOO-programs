@@ -12,7 +12,7 @@ public GooStar(int xpos, int ypos, Color color) {
 
 public void twinkle(Graphics g) {
 	g.setColor(color);
-	int s = (int)(size/2 +(Math.random()));
+	int s = (int)(size/2 +(Math.random()-0.5));
 	
 	g.drawLine(xpos - s, ypos - s, xpos + s, ypos + s);
 	g.drawLine(xpos, ypos - s, xpos, ypos + s);
