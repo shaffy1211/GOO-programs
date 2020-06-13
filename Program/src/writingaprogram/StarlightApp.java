@@ -7,7 +7,5 @@ public class StarlightApp {
 		GooByStarLight sky = new GooByStarLight (500) ;
 		sky . smooth () ;
 		sky . go () ;
-
-	}
-
+}
 }
